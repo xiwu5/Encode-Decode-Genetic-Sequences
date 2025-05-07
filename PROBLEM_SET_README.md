@@ -58,7 +58,7 @@ Make the following changes before trying to debug Part 2:
 1. In `main.py` at the top of the file:
    - comment out the part 1 import statement `from part_one import driver`
    - uncomment the part 2 import line `# from part_two import driver`
-2. In `sequence_tests.py` uncomment line 17 `part_two_tests()`
+2. In `sequence_tests.py` uncomment line 15 `part_two_tests()`
 
 ### Part 2 Explanation
 
