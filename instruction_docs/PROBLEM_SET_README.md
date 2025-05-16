@@ -24,6 +24,7 @@ OR
 To run the tests: 
 - execute `pytest tests/test_part_one.py` in the console to run just the part 1 tests
 - execute `pytest tests/test_part_two.py` in the console to run just the part 2 tests
+
 OR
 - Use the "Testing" tab (beaker icon) in VS Code and configure the set up for `Pytest`, then run the tests from the Testing panel.
 
