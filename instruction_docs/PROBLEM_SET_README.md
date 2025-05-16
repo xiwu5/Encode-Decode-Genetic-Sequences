@@ -17,6 +17,7 @@ Dahlia is a geneticist and programmer who is stuck while debugging her program. 
 
 To run the project: 
 - execute in the console `python3 main.py` 
+
 OR
 - Use the "Play" button in VS Code when the `main.py` file is open and has focus
 
