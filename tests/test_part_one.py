@@ -1,5 +1,5 @@
 from source.part_one import categorize_strand, decode_strand, encode_strand
-from test_data import DNA, DNA_ENCODED, RNA, RNA_ENCODED, STRAND_BOTH_BASES, STRAND_NEITHER_BASE
+from .test_data import DNA, DNA_ENCODED, RNA, RNA_ENCODED, STRAND_BOTH_BASES, STRAND_NEITHER_BASE
 
 # DNA tests
 

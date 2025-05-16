@@ -1,5 +1,5 @@
 from source.part_two import categorize_strand as categorize_encoded_strand
-from test_data import DNA_ENCODED, RNA_ENCODED, ENCODED_BOTH_BASES, ENCODED_NEITHER_BASE
+from .test_data import DNA_ENCODED, RNA_ENCODED, ENCODED_BOTH_BASES, ENCODED_NEITHER_BASE
 
 def test_categorize_encoded_strand_DNA():
     # Arrange
