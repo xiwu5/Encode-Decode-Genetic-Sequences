@@ -6,7 +6,7 @@ Dahlia is a geneticist and programmer who is stuck while debugging her program. 
 
 ### Files
 
-- `main.py` holds the driving code to run the application
+- `main.py` holds the driver code to run the application
 - `source/part_one.py` contains the functions for working with the genetic sequences as strings for Part 1 of the problem set
 - `source/part_two.py` contains the functions for working with the genetic sequences as strings for Part 2 of the problem set
 - `tests/test_part_one.py` holds the tests for Part 1 of the problem set

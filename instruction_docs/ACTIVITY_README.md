@@ -4,7 +4,7 @@
 
 We helped fix Dahlia's code in the Debugging Continued lesson's Problem Set, so we should have an idea of where the bugs are in this starter code and how to fix them. This puts us in a great position to try out debugging with ChatGPT using known issues, allowing us to focus on strategies for prompting rather than finding the bugs.
 
-As a reminder, `main.py` holds the driving code while `source/part_one.py` and `source/part_two.py` contain the functions for working with the genetic sequences as strings. The `tests` folder holds files with tests for both Part 1 and Part 2 of the problem set.
+As a reminder, `main.py` holds the driver code while `source/part_one.py` and `source/part_two.py` contain the functions for working with the genetic sequences as strings. The `tests` folder holds files with tests for both Part 1 and Part 2 of the problem set.
 
 ## Part 1
 
@@ -30,7 +30,7 @@ This activity is mostly discussion-based. We will be working in groups to write 
 ### Potential Workflow
 
 If you’d like some direction getting started, feel free to use the flow below:
-1. Run the code from the terminal using `python3 main.py`. Look at the error Dahlia’s receiving. Discuss as a group what info it’s giving you, then do a web search for the error to see what kind of information surfaces.
+1. Run the code from the terminal using `python3 main.py`. Look at the error Dahlia is receiving. Discuss as a group what info it’s giving you, then do a web search for the error to see what kind of information surfaces.
 2. Next, discuss the questions 1-4 listed above as a group. Use the answers to the questions to organize a prompt as a group asking ChatGPT to explain what is happening in the code. 
 3. Discuss together what was or was not useful about the response. If the group tried multiple versions, also discuss which prompts helped most.  
 4. ChatGPT might already try to suggest fixes to the bug in the first response. If it has not, using your team's knowledge of the bugs from the problem set, write up a prompt for ChatGPT that shares the code and asks for assistance debugging the error. Feel free to iterate on the prompt and share more or less code to see how it affects the response. 
