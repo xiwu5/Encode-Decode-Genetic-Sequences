@@ -11,7 +11,7 @@ As a reminder, `main.py` holds the driver code while `source/part_one.py` and `s
 ### Before Getting Started:
 
 We want to run Dahlia's code and see the same issues, in the same order, as we saw when debugging the problem set. This means that we want to make a fresh clone from the Ada-Activities repo, rather than using someone's existing repo with fixes in place. Each team member should clone down a new copy of the code from this repo. 
-- Since everyone should already have a folder using the repo name from working on the problem set, you may need to choose a different folder or create a new folder to clone the code into.
+- Since everyone should already have a folder using the repo name from working on the problem set, you may need to choose a different folder or create a new folder to clone the code into, otherwise Git will report that you already have a directory for this repo and that it isn't empty.
 
 ### Writing Prompts for Debugging
 
