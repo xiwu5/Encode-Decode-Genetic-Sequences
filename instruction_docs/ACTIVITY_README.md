@@ -16,17 +16,17 @@ We want to run Dahlia's code and see the same issues, in the same order, as we s
 ### Writing Prompts for Debugging
 
 This activity is mostly discussion-based. We will be working in groups to write prompts together to explain errors and help pinpoint issues while practicing validating ChatGPT’s responses. The goals for today are to get hands on experience writing prompts for debugging while sharing and incorporating each other's perspectives on:
-- What information could be helpful in a prompt? 
-- How to explain any errors received?
-- How to explain expected behavior vs. observed code behaviors to people or ChatGPT? 
-- How to select what code to share with ChatGPT for context?
-- How to evalute ChatGPT’s responses for correctness and usefulness?
+- What information could be helpful in a prompt
+- How to explain any errors received
+- How to explain expected behavior vs. observed code behaviors to people or ChatGPT
+- How to select what code to share with ChatGPT for context
+- How to evalute ChatGPT’s responses for correctness and usefulness
 
 ### Potential Workflow
 
 If you’d like some direction getting started, feel free to use the flow below:
 1. Run the code from the terminal using `python3 main.py`. Look at the error Dahlia is receiving. Discuss as a group what info it’s giving you, then do a web search for the error to see what kind of information surfaces.
-2. Next, discuss the questions listed in the section "Writing Prompts for Debugging" above as a group. Use the answers to the questions to organize a prompt as a group asking ChatGPT to explain what is happening in the code. 
+2. Next, discuss the bulleted points listed in the section "Writing Prompts for Debugging" above as a group. Use the answers to the questions to organize a prompt as a group asking ChatGPT to explain what is happening in the code. 
 3. Discuss together what was or was not useful about the response. If the group tried multiple versions, also discuss which prompts helped most.  
 4. ChatGPT might already try to suggest fixes to the bug in the first response. If it has not, using your team's knowledge of the bugs from the problem set, write up a prompt for ChatGPT that shares the code and asks for assistance debugging the error. Feel free to iterate on the prompt and share more or less code to see how it affects the response. 
 5. Decide as a team how to use the information from ChatGPT, and how you might want to fix the issue. Apply your changes, and run the tests!
