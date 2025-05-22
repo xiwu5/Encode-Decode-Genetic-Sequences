@@ -16,10 +16,7 @@ Dahlia is a geneticist and programmer who is stuck while debugging her program. 
 ### Running Code and Tests
 
 To run the project: 
-- execute in the console `python3 main.py` 
-
-OR
-- Use the "Play" button in VS Code when the `main.py` file is open and has focus
+- execute `python3 main.py` in the console
 
 To run the tests: 
 - execute `pytest tests/test_part_one.py` in the console to run just the part 1 tests
@@ -39,7 +36,7 @@ Dahlia knows that:
 
 Dahlia wants to use these facts to sort the sequences by placing all sequences that contain T in a DNA list, and all sequences that contain U in a RNA list. 
 
-Thinking about edge cases, Dahlia also plans for a third list: “uncategorized". Here she’ll place sequences that need further study because they can't be easily categorized: 
+Thinking about edge cases, Dahlia also plans for a third list: "undetermined". Here she’ll place sequences that need further study because they can't be easily categorized: 
 - valid sequences without any T or U characters
 - invalid sequences that contain both T and U characters. 
 
@@ -73,10 +70,7 @@ If you’d like some direction getting started, feel free to use the flow below:
 
 ### Before Starting Part 2
 
-We need to change the code in a couple places to ensure all of the Part 2 code is accessible.
-Make the following changes before trying to debug Part 2:
-
-In `main.py` at the top of the file:
+We need to change the code in a couple places to ensure all of the Part 2 code is accessible. Make the following changes at the top of `main.py` before trying to debug Part 2:
    - comment out the part 1 import statement `from part_one import driver`
    - uncomment the part 2 import line `# from part_two import driver`
 

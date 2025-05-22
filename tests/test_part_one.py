@@ -65,7 +65,7 @@ def test_categorize_RNA_strand():
     # Assert
     assert result == expected, f"Expected {expected}, but got {result}"
 
-# uncategorized strand tests
+# undetermined strand tests
 
 def test_categorize_strand_both_bases_present():
     # Arrange
