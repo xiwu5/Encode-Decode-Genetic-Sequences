@@ -10,28 +10,23 @@ As a reminder, `main.py` holds the driver code while `source/part_one.py` and `s
 
 ### Before Getting Started:
 
-We want to run Dahlia's code and see the same issues, in the same order, as we saw when debugging the problem set. As a group choose someone's existing local repository to use. 
-
-**You may need to revert some changes:**
-1. Any code changes made to fix the bugs
-2. In `main.py` at the top of the file:
-   - comment out the part 2 import statement `from part_two import driver`
-   - uncomment the part 1 import line `# from part_one import driver`
+We want to run Dahlia's code and see the same issues, in the same order, as we saw when debugging the problem set. This means that we want to make a fresh clone from the Ada-Activities repo, rather than using someone's existing repo with fixes in place. Each team member should clone down a new copy of the code from this repo. 
+- Since everyone should already have a folder using the repo name from working on the problem set, you may need to choose a different folder or create a new folder to clone the code into.
 
 ### Writing Prompts for Debugging
 
 This activity is mostly discussion-based. We will be working in groups to write prompts together to explain errors and help pinpoint issues while practicing validating ChatGPT’s responses. The goals for today are to get hands on experience writing prompts for debugging while sharing and incorporating each other's perspectives on:
-- What information could be helpful in a prompt 
-- How to explain any errors received
-- How to explain expected behavior vs. observed code behaviors to people or ChatGPT 
-- How to select what code to share with ChatGPT for context
-- How to evalute ChatGPT’s responses for correctness and usefulness
+- What information could be helpful in a prompt? 
+- How to explain any errors received?
+- How to explain expected behavior vs. observed code behaviors to people or ChatGPT? 
+- How to select what code to share with ChatGPT for context?
+- How to evalute ChatGPT’s responses for correctness and usefulness?
 
 ### Potential Workflow
 
 If you’d like some direction getting started, feel free to use the flow below:
 1. Run the code from the terminal using `python3 main.py`. Look at the error Dahlia is receiving. Discuss as a group what info it’s giving you, then do a web search for the error to see what kind of information surfaces.
-2. Next, discuss the questions 1-4 listed above as a group. Use the answers to the questions to organize a prompt as a group asking ChatGPT to explain what is happening in the code. 
+2. Next, discuss the questions listed in the section "Writing Prompts for Debugging" above as a group. Use the answers to the questions to organize a prompt as a group asking ChatGPT to explain what is happening in the code. 
 3. Discuss together what was or was not useful about the response. If the group tried multiple versions, also discuss which prompts helped most.  
 4. ChatGPT might already try to suggest fixes to the bug in the first response. If it has not, using your team's knowledge of the bugs from the problem set, write up a prompt for ChatGPT that shares the code and asks for assistance debugging the error. Feel free to iterate on the prompt and share more or less code to see how it affects the response. 
 5. Decide as a team how to use the information from ChatGPT, and how you might want to fix the issue. Apply your changes, and run the tests!
