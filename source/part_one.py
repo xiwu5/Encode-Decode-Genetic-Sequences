@@ -66,14 +66,18 @@ def encode_strand(strand):
     encoding = []
     count = 1
 
+    test = len(strand)
+    test
     for index in range(1, len(strand)):
         if strand[index - 1] == strand[index]:
             count += 1
         else:
-            new_entry = strand[index - 1] + count
+            # Fixed here: add str()
+            new_entry = strand[index - 1] + str(count)
             encoding.append(new_entry)
             count = 1
-
+    # Addon A4
+    encoding.append(strand[len(strand) - 1] + str(count))
     return "".join(encoding)
 
 def decode_strand(encoding):
